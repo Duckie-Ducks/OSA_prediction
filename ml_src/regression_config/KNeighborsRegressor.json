@@ -1,0 +1,25 @@
+{
+  "n_neighbors": [
+    1,
+    10,
+    100
+  ],
+  "leaf_size": [
+    20,
+    40,
+    1,
+    100
+  ],
+  "p": [
+    1,
+    2
+  ],
+  "weights": [
+    "uniform",
+    "distance"
+  ],
+  "metric": [
+    "minkowski",
+    "chebyshev"
+  ]
+}

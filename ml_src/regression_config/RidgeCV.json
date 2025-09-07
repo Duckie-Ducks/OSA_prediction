@@ -1,0 +1,13 @@
+{
+  "alphas": [
+    0.1,
+    1,
+    2,
+    5,
+    10
+  ],
+  "fit_intercept": [
+    true,
+    false
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "max_depth": [
+    10,
+    50,
+    90,
+    null
+  ],
+  "criterion": [
+    "squared_error",
+    "absolute_error"
+  ]
+}

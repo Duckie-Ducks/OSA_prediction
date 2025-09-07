@@ -1,0 +1,16 @@
+{
+  "alpha": [
+    0,
+    0.3,
+    0.5,
+    1
+  ],
+  "force_alpha": [
+    true,
+    false
+  ],
+  "fit_prior": [
+    true,
+    false
+  ]
+}

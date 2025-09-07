@@ -1,0 +1,33 @@
+python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mean_const --outlier dataz
+python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mean_most --outlier dataz
+python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer median_const --outlier dataz
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer median_most --outlier dataz
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer bayesian --outlier dataz
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer rf --outlier dataz
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer knn --outlier dataz
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer knn2 --outlier dataz
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer knn5 --outlier dataz
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer knn10 --outlier dataz
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mice1 --outlier dataz
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mice2 --outlier dataz
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mice3 --outlier dataz
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mice4 --outlier dataz
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mice5 --outlier dataz
+python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer hmisc --outlier dataz
+
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mean_const --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mean_most --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer median_const --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer median_most --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer bayesian --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer rf --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer knn --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer knn2 --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer knn5 --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer knn10 --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mice1 --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mice2 --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mice3 --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mice4 --outlier iqr
+# python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer mice5 --outlier iqr
+python feature_selection_impute_outlier_Amonae.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name all_features --imputer hmisc --outlier iqr

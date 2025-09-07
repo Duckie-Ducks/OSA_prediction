@@ -1,0 +1,17 @@
+{
+  "max_depth": [
+    10,
+    50,
+    90,
+    null
+  ],
+  "max_features": [
+    "auto",
+    "sqrt"
+  ],
+  "n_estimators": [
+    10,
+    100,
+    200
+  ]
+}

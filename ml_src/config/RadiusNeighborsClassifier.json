@@ -1,0 +1,26 @@
+{
+  "weights": [
+    "uniform",
+    "distance"
+  ],
+  "algorithm": [
+    "auto",
+    "ball_tree",
+    "kd_tree",
+    "brute"
+  ],
+  "leaf_size": [
+    20,
+    40,
+    100,
+    1
+  ],
+  "p": [
+    1,
+    2
+  ],
+  "metric": [
+    "minkowski",
+    "chebyshev"
+  ]
+}

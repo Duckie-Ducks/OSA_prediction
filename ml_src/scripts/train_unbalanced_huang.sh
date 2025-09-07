@@ -1,0 +1,52 @@
+#!/bin/bash
+cd ../src
+
+python feature_selection.py --model_name GaussianNB --target_col AHI_5 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name GaussianNB --target_col AHI_15 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name GaussianNB --target_col AHI_30 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name GaussianNB --target_col Severity --balance_strategy None --features_name Huang
+
+python feature_selection.py --model_name LinearSVC --target_col AHI_5 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name LinearSVC --target_col AHI_15 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name LinearSVC --target_col AHI_30 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name LinearSVC --target_col Severity --balance_strategy None --features_name Huang
+
+python feature_selection.py --model_name RandomForestClassifier --target_col AHI_5 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name RandomForestClassifier --target_col AHI_15 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name RandomForestClassifier --target_col AHI_30 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name RandomForestClassifier --target_col Severity --balance_strategy None --features_name Huang
+
+python feature_selection.py --model_name LGBMClassifier --target_col AHI_5 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name LGBMClassifier --target_col AHI_15 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name LGBMClassifier --target_col AHI_30 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name LGBMClassifier --target_col Severity --balance_strategy None --features_name Huang
+
+python feature_selection.py --model_name LogisticRegression --target_col AHI_5 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name LogisticRegression --target_col AHI_15 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name LogisticRegression --target_col AHI_30 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name LogisticRegression --target_col Severity --balance_strategy None --features_name Huang
+
+python feature_selection.py --model_name ExtraTreesClassifier --target_col AHI_5 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name ExtraTreesClassifier --target_col AHI_15 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name ExtraTreesClassifier --target_col AHI_30 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name ExtraTreesClassifier --target_col Severity --balance_strategy None --features_name Huang
+
+python feature_selection.py --model_name LinearDiscriminantAnalysis --target_col AHI_5 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name LinearDiscriminantAnalysis --target_col AHI_15 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name LinearDiscriminantAnalysis --target_col AHI_30 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name LinearDiscriminantAnalysis --target_col Severity --balance_strategy None --features_name Huang
+
+python feature_selection.py --model_name KNeighborsClassifier --target_col AHI_5 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name KNeighborsClassifier --target_col AHI_15 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name KNeighborsClassifier --target_col AHI_30 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name KNeighborsClassifier --target_col Severity --balance_strategy None --features_name Huang
+
+python feature_selection.py --model_name CatBoostClassifier --target_col AHI_5 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name CatBoostClassifier --target_col AHI_15 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name CatBoostClassifier --target_col AHI_30 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name CatBoostClassifier --target_col Severity --balance_strategy None --features_name Huang
+
+python feature_selection.py --model_name XGBClassifier --target_col AHI_5 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name XGBClassifier --target_col AHI_15 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name XGBClassifier --target_col AHI_30 --balance_strategy None --features_name Huang
+python feature_selection.py --model_name XGBClassifier --target_col Severity --balance_strategy None --features_name Huang

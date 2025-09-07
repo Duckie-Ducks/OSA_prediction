@@ -1,0 +1,12 @@
+{
+  "solver": [
+    "lsqr",
+    "eigen"
+  ],
+  "n_components": [
+    1,
+    5,
+    10,
+    50
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "loss": [
+    "hinge",
+    "log",
+    "modified_huber",
+    "squared_hinge",
+    "perceptron"
+  ],
+  "penalty": [
+    "l1",
+    "l2",
+    "elasticnet",
+    "none"
+  ],
+  "alpha": [
+    0.00001,
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "learning_rate": [
+    "constant",
+    "optimal",
+    "invscaling",
+    "adaptive"
+  ]
+}

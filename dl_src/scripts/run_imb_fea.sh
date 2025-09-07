@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for t in `Severity AHI_5 AHI_15 AHI_30`
+do
+    for f in $features_name
+    do
+        for im in ["SMOTE", "ADASYN"]
+        do
+            python DL_OSA_Imb.py --model TabTransformer --batch_size 1024 --target_col $t --imb im --features_name $f
+        done
+    done
+done

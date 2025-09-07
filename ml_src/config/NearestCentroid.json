@@ -1,0 +1,10 @@
+{
+  "metric": [
+    "euclidean",
+    "manhattan",
+    "l1",
+    "l2",
+    "nan_euclidean",
+    "cosine"
+  ]
+}

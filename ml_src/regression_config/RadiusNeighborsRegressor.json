@@ -1,0 +1,12 @@
+{
+  "weights": [
+    "uniform"
+  ],
+  "algorithm": [
+    "auto"
+  ],
+  "leaf_size": [
+    20,
+    40
+  ]
+}

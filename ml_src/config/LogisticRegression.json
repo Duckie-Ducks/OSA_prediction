@@ -1,0 +1,21 @@
+{
+  "penalty": [
+    "l1",
+    "l2",
+    "elasticnet",
+    "none"
+  ],
+  "C": [
+    1,
+    10,
+    100,
+    1000
+  ],
+  "solver": [
+    "lbfgs",
+    "newton-cg",
+    "liblinear",
+    "sag",
+    "saga"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "max_depth": [
+    10,
+    30,
+    50,
+    70,
+    90,
+    null
+  ],
+  "min_samples_leaf": [
+    1,
+    2,
+    4
+  ],
+  "criterion": [
+    "gini",
+    "entropy",
+    "log_loss"
+  ]
+}

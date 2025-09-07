@@ -1,0 +1,14 @@
+{
+  "gamma": [
+    0.001
+  ],
+  "kernel": [
+    "linear",
+    "poly",
+    "rbf",
+    "sigmoid"
+  ],
+  "nu": [
+    0.2
+  ]
+}

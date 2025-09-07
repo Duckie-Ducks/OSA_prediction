@@ -1,0 +1,1 @@
+{"trainer_config__max_epochs": [50, 100, 150],"optimizer_config__learning_rate": [1e-3, 5e-3, 1e-2]}

@@ -1,0 +1,31 @@
+{
+  "n_estimators": [
+    10,
+    50,
+    100,
+    500
+  ],
+  "max_features": [
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "bootstrap": [
+    true,
+    false
+  ],
+  "bootstrap_features": [
+    true,
+    false
+  ],
+  "oob_score": [
+    true,
+    false
+  ],
+  "warm_start": [
+    true,
+    false
+  ]
+}
