@@ -2,9 +2,9 @@
 
 Our studies are built upon a large and unique dataset with 110,000 patients and hundreds of EHR clinical features collected from the French national registry of sleep apnoea, which can reduce data biases. We study a wide range of:
 
-- **Machine Learning methods**: AdaBoostRegressor, BaggingRegressor, CatBoostRegressor, DecisionTreeRegressor, ExtraTreesRegressor, GaussianProcessRegressor, GradientBoostingRegressor, KNeighborsRegressor, LGBMRegressor, LinearSVR, MLPRegressor, NuSVR, MLPRegressor, NuSVR, PassiveAggresiveRegressor, RandomForestRegressor, Ridge, RidgeCV, SGDRegressor, SVR, XGBRegressor.
+- **Machine Learning methods**: Neareast Centroid, Hist Gradient Boosting, Gradient Boosting, LGBM, MLP, Bagging, Random Forest, SGD, XGBoost, GaussianNB, AdaBoost, LDA, MultinomialNB, Logistic Regression, CatBoost, Extra Tree, BernoulliNB, QDA, LinearSVC, Decision Tree, Ridge, KNN, Perceptron, Passive Agressive, NuSVC, SVC, Radius Neighbors.
 
-- **Deep Learning methods**: AutoInt, CEM, CNN, DANet, FTT, GANDALF, GATE, LSTM, Node, RNN, TabNet, TabTransformer.
+- **Deep Learning methods**: CEM, CNN, DANet, GATE, LSTM, Node, RNN, TabNet, TabTransformer.
 
 ## How to run?
 
