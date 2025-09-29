@@ -4,7 +4,7 @@ Our studies are built upon a large and unique dataset with 110,000 patients and 
 
 - **Machine Learning methods**: Neareast Centroid, Hist Gradient Boosting, Gradient Boosting, LGBM, MLP, Bagging, Random Forest, SGD, XGBoost, GaussianNB, AdaBoost, LDA, MultinomialNB, Logistic Regression, CatBoost, Extra Tree, BernoulliNB, QDA, LinearSVC, Decision Tree, Ridge, KNN, Perceptron, Passive Agressive, NuSVC, SVC, Radius Neighbors.
 
-- **Deep Learning methods**: CEM, CNN, DANet, GATE, LSTM, Node, RNN, TabNet, TabTransformer.
+- **Deep Learning methods**: CEM, CNN, DANet, GATE, LSTM, Node, RNN, TabNet, TabTransformer, GRU, GCN, DBN.
 
 ## How to run?
 
